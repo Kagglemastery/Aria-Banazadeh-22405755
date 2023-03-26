@@ -21,38 +21,8 @@ body {
     padding-top: 20px;
   }
   
-
-  
-  main {
-    grid-area: main;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "img bio";
-  
-    padding: 20px;
-  }
-  
-  .img_section {
-    grid-area: img;
-    width:50%;
-    margin-top:50px;
-    margin-left:100px;
-    
-  }
-
-  img{
-    border-radius: 50%;
-
-  }
-  
-  .bio_section {
-    grid-area: bio;
-    margin-top:20%;
-  }
-  
-  .bio_section p{
-    margin-top:30px;
+  main{
+    grid-area:main;
   }
   nav ul {
     list-style: none;
