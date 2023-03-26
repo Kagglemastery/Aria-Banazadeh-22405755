@@ -20,7 +20,8 @@ body {
     padding: 10px;
     padding-top: 20px;
   }
-  
+
+
   main{
     grid-area:main;
   }
@@ -55,6 +56,10 @@ body {
     background-color: gray;
   }
   
+  img:hover {
+    opacity: 0.3;
+    transition: 1.4s ease;
+  }
   
 
   footer{
