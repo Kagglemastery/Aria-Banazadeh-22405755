@@ -1,5 +1,5 @@
 main .contact_section{
-    margin-left:20%;
+    margin-left:10%;
     margin-top:100px;
     width:500px;
 }
@@ -16,12 +16,12 @@ main label{
 }
 
 main input, main textarea{
-    width:100%;
+    box-sizing: border-box;
+    width:90%;
+    border: 2px solid #ccc;
     padding: 11px 20px;
     margin: 7px 0;
-    border: 2px solid #ccc;
     border-radius: 3px;
-    box-sizing: border-box;  
 }
 
 main input:hover, main textarea:hover{

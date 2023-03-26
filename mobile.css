@@ -15,8 +15,8 @@ body {
     height: 1.5em;
     width: 3em;
     display: block;
-    border-top: 0.2em solid #64ffda;
-    border-bottom: 0.2em solid #64ffda;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
     border-radius: 0.1em;
     transition: transform 1.5 ease-in;
 }
@@ -26,25 +26,35 @@ body {
     position: absolute;
     width: 3em;
     margin-top: 0.6em;
-    border-top: 0.2em solid #64ffda;
+    border-top: 0.2em solid white;
 }
 
 nav {
+    text-align: left;
     display: block;
-    background-color: #112240;
+    background-color: black;
+    color:white;
     position: fixed;
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
     transition: transform 0.5s ease-in;
+    padding:0;
 }
 
 nav ul a {
     text-decoration: none;
     color: rgba(136, 146, 176, 1);
+    margin:0;
+    padding:0;
 }
 
+nav ul li{
+    display:block;
+    margin:0;
+    padding:0;
+}
 
 #clicked .on {
     display: block;

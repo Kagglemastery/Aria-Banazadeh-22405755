@@ -4,7 +4,9 @@
     grid-area: main;
   }
   
-
+.img_section h1{
+  display:none;
+}
   main, aside{
     margin-left: 30%;
   }

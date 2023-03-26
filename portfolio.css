@@ -4,6 +4,10 @@
     gap: 10px; 
 }
   
+section h1{
+    display:none;
+}
+
 .img_section img {
     width: 100%; 
     height: 100%;
