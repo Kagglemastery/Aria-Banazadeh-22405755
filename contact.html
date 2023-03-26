@@ -8,7 +8,7 @@
         <title>Home Page</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="contact.css">
-        <link href="mobile.css" media="(max-width: 800px)" rel="stylesheet" type="text/css" />
+        <link href="mobile.css" media="(max-width: 800px)" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
    </head>
 
@@ -33,13 +33,13 @@
             <h1>Contact Form </h1>
             <form action="mailto:recipient@example.com" method="get">
                 <label for="subject" class="label">Subject: </label>
-                <input type="text" name="subject">
+                <input id="subject" type="text" name="subject">
                 
-                <label for="subject" class="label">Your email: </label>
-                <input type="email" name="email" >
+                <label for="email" class="label">Your email: </label>
+                <input id="email" type="email" name="email" >
                 
-                <label for="subject" class="label">Your message: </label>
-                <textarea name="message" rows="5" cols="30"></textarea>
+                <label for="message" class="label">Your message: </label>
+                <textarea name="message" rows="5" cols="30" id="message"></textarea>
                 
                 <input type="submit" value="Send">
               
